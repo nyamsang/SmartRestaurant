@@ -1,0 +1,9 @@
+{
+	"system_name": "Saphan Sung - Supplier",
+	"database": {
+		"host": "localhost",
+		"db_name": "db_smart",
+		"user": "spl",
+		"password": "2209"
+	}
+}

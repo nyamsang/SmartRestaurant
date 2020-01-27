@@ -1,0 +1,9 @@
+{
+	"system_name": "Saphan Sung - Consumer",
+	"database": {
+		"host": "localhost",
+		"db_name": "db_smart",
+		"user": "csm",
+		"password": "2209"
+	}
+}
