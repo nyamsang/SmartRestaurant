@@ -46,7 +46,7 @@
                 <p><input name="is_printed" type="radio" value="printed" disabled="disabled">&nbsp;Printed</p>
                 <p><input name="is_printed" type="radio" value="unprinted" checked="checked" disabled="disabled">&nbsp;Un-Printed</p>
                 <p><input name="is_printed" type="radio" value="both" disabled="disabled">&nbsp;Both</p>
-                <p><input id="order_date" type="date"></p>
+                <p><input id="order_date" type="date" disabled="disabled"></p>
               </div>
             </div>
             <!-- Submit Search Button -->
@@ -73,37 +73,37 @@
       <div class="container">
         <div class="row">
           <div class="span12">
-            <h4>Default styles</h4>
+            <h4>Order List</h4>
             <table class="table table-hover">
               <thead>
                 <tr>
                   <th>
-                    #
+                    Time
                   </th>
                   <th>
-                    First Name
+                    Table
                   </th>
                   <th>
-                    Last Name
+                    Status
                   </th>
                   <th>
-                    Username
+                    
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody id="tbody_order_batch_list">
                 <tr>
                   <td>
-                    1
+                    14:00 
                   </td>
                   <td>
-                    Mark
+                    A1
                   </td>
                   <td>
-                    Otto
+                    Unprinted
                   </td>
                   <td>
-                    @mdo
+                    <a id="btn-search"  href="#" class="btn btn-inverse btn-rounded" disabled="disabled"><i class="icon-search"></i>Print</a>
                   </td>
                 </tr>
               </tbody>
