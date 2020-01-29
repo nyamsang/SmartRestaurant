@@ -1,5 +1,8 @@
                 <tr>
                   <td>
+                    <a id="btn-order-batch-id-[order_batch_id]"  href="order_batch_item_list.html?branch_id=[branch_id]&order_batch_id=[order_batch_id]" class="btn btn-inverse btn-rounded" disabled="disabled"><i class="icon-search"></i>[order_batch_id]</a>
+                  </td>
+                  <td>
                     [time]
                   </td>
                   <td>
@@ -9,6 +12,6 @@
                     [status]
                   </td>
                   <td>
-                    <a id="btn-print-order-id-[order_batch_id]"  href="#" class="btn btn-inverse btn-rounded" disabled="disabled"><i class="icon-print"></i>Print</a>
+                    <a href="#" onclick="print_order_batch('[order_batch_id]');" class="btn btn-inverse btn-rounded" disabled="disabled"><i class="icon-print"></i>Print</a>
                   </td>
                 </tr>
