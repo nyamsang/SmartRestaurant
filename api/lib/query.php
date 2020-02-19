@@ -48,6 +48,10 @@ class Query {
             }
             $where_sql = "where ".implode(" and ", $where_sql_list);
         }
+        else {
+            $where_sql = "";
+        }
+        
         $sql = "SELECT * FROM {$tb_name} {$where_sql};";
 
         return Query::getSqlResultList($sql);
